@@ -1,0 +1,480 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.header {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-logo {
+  width: 130px;
+}
+
+.header-text {
+  font-size: 15px;
+  color: black;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  background-color: #da6b64;
+  border-radius: 30px;
+}
+
+
+.header-right a {
+  padding: 15px 40px 15px 40px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: #d84940;
+  border-radius: 30px;
+}
+
+.top-content {
+  background: url(img/main.jpg)no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+.top-content img {
+  width: 300px;
+  padding: 10px 0 50px 0;
+}
+
+.top-text {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.top-text2 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.contact-wrap {
+      background-color: #ebb94d;
+      text-align: center;
+      padding: 30px 15% 50px 15%;
+}
+
+.contact-text {
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 30px;
+  color: white;
+}
+
+.contact-text2 {
+      color: #c7254e;
+    background-color: #f9f2f4;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+  font-weight: 550;
+  padding: 3px 3px;
+  margin: 20px 0 40px 0;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.contact-text3 {
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 60px;
+  color: white;
+  padding-top: 50px;
+}
+
+.contact {
+  background-color: #da6b64;
+  border-radius: 50px;
+  padding: 30px 40px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contact:hover {
+  background-color: #d84940;
+  border-radius: 50px;
+}
+
+.twitter {
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.tweet {
+  background-color: #1b95e0;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+
+.tweet:hover {
+  background-color: #126091;
+  transition: 0.8s;
+}
+
+.iine {
+   background-color: #1b95e0;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+
+.shere {
+    background-color: #1b95e0;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+
+.engineer {
+  padding: 40px 0 180px 0;
+  text-align: center;
+  background: url(img/introbottom.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.engineer-title {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.yellow {
+      margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellow::before {
+      top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellow::after {
+      bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.engineer-text {
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.engineer-text span {
+  font-weight: 600;
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.about {
+  position: relative;
+  background-color: #fef5e0;
+  text-align: center;
+  padding: 40px 0 60px 0;
+}
+
+.about-title {
+  font-size: 30px;
+  padding: 20px 0;
+  line-height: 40px;
+}
+
+.about-text {
+  font-size: 20px;
+  font-weight: 550;
+  padding: 40px 0;
+}
+
+.about-ball {
+  height: 80px;
+  width: 80px;
+  background-color: #ebb94d;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 80px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.about-skill {
+  width: 80%;
+  background-color: white;
+  border: 2px solid #ebb94d;
+  margin: 0 auto;
+}
+
+.skill {
+  font-size: 20px;
+  font-weight: 550;
+  padding: 30px 0;
+}
+
+.icon {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.icon p {
+  font-weight: 100;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.step {
+  text-align: center;
+  background: url(img/aboutsecondbg.jpg)no-repeat;
+  background-size: cover;
+}
+
+.step-title {
+  font-size: 30px;
+  color: white;
+  padding: 70px 0 30px 0;
+}
+
+.step-text {
+  font-size: 20px;
+  font-weight: 550;
+  color: white;
+  line-height: 40px;
+}
+
+.step-text span {
+  color: #ebb94d;
+}
+
+.step-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.step-box {
+  background-color: white;
+  width: 30%;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+
+.step1 {
+  background-color: #ebb94d;
+  color: white;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 3px 0;
+}
+
+.step2 {
+  padding: 0 0 20px 0;
+  font-weight: bold;
+}
+
+.step3 {
+  padding: 0 0 30px 0;
+  font-weight: bold;
+}
+
+.blue {
+  background-color: #016ea9;
+}
+
+.blue p {
+  font-size: 20px; 
+  font-weight: 550;
+  color: white;
+  padding: 40px 0;
+  line-height: 40px;
+  letter-spacing: 3px;
+}
+
+.blue p span {
+  color: #ebb94d;
+}
+
+.learn {
+  text-align: center;
+}
+
+.learn-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 70px 0 50px 0;
+}
+
+.learn-title span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.learn-text {
+  font-size: 20px;
+  font-weight: 100;
+}
