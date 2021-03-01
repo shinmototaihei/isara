@@ -287,6 +287,8 @@ body {
     box-sizing: border-box;
 }
 
+
+
 .yellow::before {
       top: 0;
     left: 0;
@@ -312,6 +314,43 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.white {
+      margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.white::before {
+      top: 0;
+    left: 0;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.white::after {
+      bottom: 0;
+    right: 0;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 .engineer-text {
   padding-bottom: 20px;
@@ -466,7 +505,7 @@ body {
 .learn-title {
   font-size: 30px;
   font-weight: bold;
-  padding: 70px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .learn-title span {
@@ -477,4 +516,423 @@ body {
 .learn-text {
   font-size: 20px;
   font-weight: 100;
+  letter-spacing: 2px;
 }
+
+.learn-img {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.learn-img img {
+  width: 20%;
+}
+
+.learn-text2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+
+.merit {
+  text-align: center;
+  background-color: #fef5e0;
+  padding: 40px 0 60px 0;
+}
+
+.merit-title {
+   font-size:20px;
+  padding: 20px 0;
+  line-height: 40px;
+}
+.merit-title span {
+  font-size: 30px;
+}
+
+.merit-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.merit-box {
+  width: 30%;
+  text-align: left;
+}
+
+.merit-img1 {
+  width: 100%;
+  height: 180px;
+  background: url(img/learnfromfreelancer.jpg)no-repeat;
+  background-size: cover;
+}
+
+.merit-img2 {
+   width: 100%;
+  height: 180px;
+  background: url(img/learnfromprojects.jpg)no-repeat;
+  background-size: cover;
+}
+
+.merit-img3 {
+   width: 100%;
+  height: 180px;
+  background: url(img/actuallyfree.jpg)no-repeat;
+  background-size: cover;
+}
+
+.merit-box h2 {
+  color: #ebb94d;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.merit-box p {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+
+.support {
+  width: 80%;
+  background-color: white;
+  border: 2px solid #ebb94d;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+
+.support-title {
+  font-size: 28px;
+  color: #ebb94d;
+  font-weight: 550;
+  letter-spacing: 2px;
+  padding: 40px 0 20px 0;
+}
+
+.support-text {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.support-text2 {
+  font-weight: bold;
+  padding: 20px 0 40px 0;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.merit-bottom {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.member {
+  background: url(img/teacherbg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.member-title {
+  font-size: 30px;
+  font-weight: 550;
+  padding: 70px 0 40px 0;
+  color: white;
+}
+
+.member-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+
+.member-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.member-box {
+  width: 31%;
+}
+
+.member-wrap {
+  border: 3px solid white;
+  padding: 40px 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.members {
+  border-radius: 50%;
+  position: relative;
+  bottom: -35px;
+}
+
+.members-text {
+  line-height: 30px;
+}
+
+.name {
+  padding: 20px 0;
+}
+
+.q-a {
+  background-color: #ebb94d;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.q-aball {
+  background-color: white;
+  border-radius: 50%;
+  color: #ebb94d;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+.q-a-title {
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.q-a::after {
+  content: " ";
+  height: 0;
+  position: absolute;
+  width: 0;
+  border: 25px solid transparent;
+  border-top-color: #ebb94d;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.voice {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.voice-title {
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.voice-text {
+  font-size: 18px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  padding: 20px 0 30px 0;
+}
+
+.message {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.voice-wrap {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.voice-box {
+  display: flex;
+  padding-top: 40px;
+}
+
+.voice-img {
+  width: 30%;
+  border: 3px solid #ebb94d;
+}
+
+.voice-text2 {
+  padding: 30px 0 20px 30px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.voice-content {
+  text-align: left;
+  color: rgb(126, 124, 124);
+}
+
+.voice-name {
+  padding-left: 30px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.learn2 {
+  background: url(img/classbg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.learn2-title {
+  color: white;
+  font-size: 30px;
+  padding: 50px 0 20px 0;
+}
+
+.learn2-text {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.learn2-content {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.learn-nav {
+  background-color: rgb(48, 114, 190);
+  padding: 20px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.learn2-box {
+  background-color: white;
+  width: 48%;
+  border: 2px solid rgb(48, 114, 190);
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+
+
+.learn-list li {
+  list-style: none;
+  font-size: 17px;
+  border-bottom: 1px dotted lightgray;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.price {
+  background-color: rgb(48, 114, 190);
+  font-size: 20px;
+  color: white;
+  padding: 50px 0;
+  line-height: 30px;
+}
+
+.lesson {
+  text-align: center;
+}
+
+.lesson-title {
+  font-size: 30px;
+  padding: 60px 0;
+}
+
+.lesson-title i {
+  font-size: 25px;
+}
+
+.lesson-img {
+  padding-bottom: 50px;
+}
+
+.lesson-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lesson-box {
+  background-color: #fef5e0;
+  padding: 10px 30px;
+  display: flex;
+}
+
+
+
+.lesson-right,
+.lesson-right2,
+.lesson-right3,
+.lesson-right4,
+.lesson-right5 {
+  text-align: left;
+  padding: 10px 0 0 50px;
+}
+
+.lesson-right h4 {
+  margin: 20px 0;
+}
+
+.lesson-right p {
+  line-height: 20px;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+
+.lesson-right2 p {
+  margin: 20px 0;
+   line-height: 20px;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.lesson-right3 h4 {
+   margin: 20px 0;
+}
+
+.lesson-right4 h4 {
+  margin: 20px 0;
+}
+
+.lesson-right4 p {
+   font-weight: 100;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.lesson-right5 h4 {
+  margin: 20px 0;
+}
+
+
+.lesson-content {
+ width: 200px;
+ display: block;
+ padding: 20px;
+}
+
+.lesson-left-img {
+  
+}
+
+.lesson-content h2 {
+  padding-top: 10px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+*{
+   outline: red 1px solid !important;
+}
+
+
