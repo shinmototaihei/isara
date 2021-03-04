@@ -967,12 +967,13 @@ body {
 .zero {
   background-color: #ebb94d;
   text-align: center;
-  padding: 0 12.5%;
+  padding: 50PX 10%;
+
 }
 
 .zero-title {
   font-size: 30px;
-  padding: 80px 0 50px 0;
+  padding: 30px 0 50px 0;
   letter-spacing: 2px;
 }
 
@@ -991,15 +992,19 @@ body {
   display: flex;
   margin-top:  40px;
   padding: 40px;
-  
   justify-content: space-around;
+  z-index: -999;
 }
 
 .sp {
   font-size: 30px;
   position: relative;
   bottom: -58px;
-  overflow: hidden;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ebb94d;
+  z-index: 1;
+
 }
 
 .sp-ball {
@@ -1032,6 +1037,235 @@ body {
   padding-top: 20px;
 }
 
+.vo {
+  background: url(img/specialdetail.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.no-vo {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.vo-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 30px 0;
+  line-height: 30px;
+}
+
+.month10 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.month10-text {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.message2 {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.message2-title {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.message2-text {
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 50px 0 30px 0;
+}
+
+.someya {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.someya-img {
+  width: 200px;
+  
+}
+
+.someya-text {
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.form {
+  text-align: center;
+  background-color: #ebb94d;
+  padding: 50px 0;
+}
+.form-title {
+  font-size: 30px;
+}
+
+.form-text {
+  font-size: 18px;
+  padding: 30px 0;
+  font-weight: bold;
+}
+
+.name1 {
+  margin-bottom: 25px;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+.name2 {
+  margin-bottom: 25px;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.email {
+  margin-bottom: 40px;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.form textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60%;
+}
+
+.submit {
+  background-color: #da6b64;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  letter-spacing: 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 30px;
+  width: 61%;
+  cursor: pointer;
+}
+
+.question {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.question-title {
+  font-size: 30px;
+}
+
+
+
+.accordion-container {
+  position: relative;
+  width: 100%;
+  border-top: none;
+  outline: 0;
+  cursor: pointer;
+  
+}
+
+.accordion-container .accordion-title {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px 0;
+  border: 1px solid rgb(226, 225, 225) ;
+  box-shadow: black;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.accordion-container .accordion-title i {
+  color: rgb(25, 87, 146);
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-container .content-entry.open .accordion-title {
+  text-decoration: underline;
+}
+
+.accordion-container .accordion-title:hover i:before,
+.accordion-container .accordion-title:hover i:active,
+.accordion-container .content-entry.open i {
+}
+
+.accordion-title{
+  position: relative;
+}
+
+.accordion-title:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 38%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.accordion-title.open:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px 20px 30px 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+/* CSS for CodePen */
+.accordion-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.
 *{
    outline: re 1px solid !important;
 }
